@@ -63,3 +63,12 @@ function updateCardNumber(number) {
   const ccNumber = document.querySelector(".cc-number")
   ccNumber.innerText = number === "" ? "1234 5678 9012 3456" : number
 }
+
+//name card
+const cardHolder = document.querySelector("#card-holder")
+cardHolder.addEventListener("input", updateCardHolder)
+
+function updateCardHolder() {
+  const ccHolder = document.querySelector(".cc-holder .value")
+  ccHolder.innerText = cardHolder.value === "" ? "FULANO DA SILVA" : cardHolder.value
+}
