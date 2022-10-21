@@ -118,3 +118,12 @@ function updateSecurityCode(code) {
   const ccSecurity = document.querySelector(".cc-security .value")
   ccSecurity.innerText = code === "" ? "123" : code
 }
+
+//evento botão
+const addButton = document.querySelector("#btn-card")
+addButton.addEventListener("click", handleclick)
+
+function handleclick(event) {
+  event.preventDefault()
+  alert("Cartão adicionado!")
+}
