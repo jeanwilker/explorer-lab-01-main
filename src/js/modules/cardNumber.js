@@ -18,7 +18,7 @@ export default function initCardNumber() {
       },
       {
         mask: "0000 0000 0000 0000",
-        regex: /^3[47]\\d{0,13}/,
+        regex: /^3[47]\d{0,13}/,
         cardType: "americanExpress",
       },
       {
