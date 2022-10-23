@@ -35,4 +35,6 @@ O Cardpay é um componente que simula o formulário de preenchimento de cartão 
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/5x4Tfkrt9cucT34lVmnOqb/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
+Interaja com o componente: [LINK](https://card-pay-explorer.netlify.app/).
+
 ---
